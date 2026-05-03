@@ -1,0 +1,140 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONFIGURAÇÕES GERAIS */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f8;
+    color: #333;
+    padding: 0 20px;
+}
+
+/* CONTAINER PADRÃO */
+section {
+    max-width: 900px;
+    margin: 60px auto;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 22px;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+/* HERO */
+#hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #007BFF;
+    color: white;
+    border-radius: 8px;
+}
+
+#hero h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    margin-bottom: 20px;
+}
+
+/* BOTÕES */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background: #fff;
+    color: #007BFF;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e2e6ea;
+}
+
+/* TÍTULOS */
+h2 {
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+/* LISTAS */
+ul {
+    list-style: none;
+}
+
+ul li {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* EXPERIÊNCIA */
+article {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #007BFF;
+    border-radius: 5px;
+}
+
+/* CONTATO */
+#contato {
+    text-align: center;
+}
+
+#contato button {
+    background: #007BFF;
+    color: white;
+}
+
+#contato button:hover {
+    background: #0056b3;
+}
+
+/* RODAPÉ */
+footer {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 14px;
+    color: #777;
+}
+
+/* CSS para o formulário de Contato */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
